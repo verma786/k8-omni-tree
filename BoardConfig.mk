@@ -42,6 +42,9 @@ BOARD_MKBOOTIMG_ARGS := \
 	--second_offset 0x00e88000 \
 	--tags_offset 0x03f88000 \
 	--board marino
+# Kernel properties
+TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
+
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216 
